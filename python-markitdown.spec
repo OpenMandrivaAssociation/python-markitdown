@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %define module markitdown
 
 Name:		python-markitdown
