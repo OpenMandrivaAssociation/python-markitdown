@@ -22,6 +22,6 @@ Python tool for converting files and office documents to Markdown.
 %autosetup -p1 -n %{module}-%{version}
 
 %files
-%{_bindit}/markitdown
+%{_bindir}/markitdown
 %{python_sitelib}/markitdown-%{version}.dist-info
 %{python_sitelib}/markitdown
