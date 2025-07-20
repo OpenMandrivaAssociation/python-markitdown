@@ -12,6 +12,7 @@ BuildSystem:	python
 
 BuildRequires:	python
 BuildRequires:	pkgconfig(python)
+BuildRequires:  python-hatchling
 
 %description
 Python tool for converting files and office documents to Markdown. 
