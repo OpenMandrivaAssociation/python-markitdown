@@ -15,11 +15,16 @@ BuildRequires:	python
 BuildRequires:	pkgconfig(python)
 BuildRequires:  python-hatchling
 
+#FIXME. It require a lot of optional python stuff. Lets add it in near future.
+
 %description
 Python tool for converting files and office documents to Markdown. 
 
 %prep
 %autosetup -p1 -n %{module}-%{version}
+
+# try relax dependencies
+sed -i 's/magika~=0\.6\.1/magika>=1.0.1/' pyproject.toml
 
 %files
 %{_bindir}/markitdown
