@@ -15,6 +15,16 @@ BuildRequires:	python
 BuildRequires:	pkgconfig(python)
 BuildRequires:  python-hatchling
 
+Requires: python3dist(magika)
+Requires: python3dist(requests)
+Requires: python3dist(markdownify)
+Requires: python3dist(charset-normalizer)
+Requires: python3dist(defusedxml)
+Requires: python3dist(onnxruntime)
+
+#Optional:
+Requires: python3dist(lxml)
+Requires: python3dist(youtube-transcript-api)
 #FIXME. It require a lot of optional python stuff. Lets add it in near future.
 
 %description
