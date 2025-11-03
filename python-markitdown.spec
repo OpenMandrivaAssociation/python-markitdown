@@ -2,7 +2,7 @@
 %define module markitdown
 
 Name:		python-markitdown
-Version:	0.1.2
+Version:	0.1.3
 Release:	1
 Summary:	Python tool for converting files and office documents to Markdown. 
 URL:		https://github.com/microsoft/markitdown
