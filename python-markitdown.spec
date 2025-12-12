@@ -3,7 +3,7 @@
 
 Name:		python-markitdown
 Version:	0.1.3
-Release:	1
+Release:	2
 Summary:	Python tool for converting files and office documents to Markdown. 
 URL:		https://github.com/microsoft/markitdown
 License:	MIT
