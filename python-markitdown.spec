@@ -26,6 +26,8 @@ Recommends: python%{pyver}dist(youtube-transcript-api)
 files to Markdown (e.g., for indexing, text analysis, etc).
 
 %prep -a
+# 0.1.8 stops at Python 3.14. Cooker is 3.15.
+sed -i 's/requires-python = ">=3.10,<3.15"/requires-python = ">=3.10"/' pyproject.toml
 # try relax dependencies
 sed -i 's/magika~=0\.6\.1/magika>=1.0.1/' pyproject.toml
 
